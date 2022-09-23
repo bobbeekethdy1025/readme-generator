@@ -1,6 +1,6 @@
 # readme-generator
 [https://github.com/bobbeekethdy1025/readme-generator]
-![Alt Text](https://imgur.com/a/LzX9SMx)
+![Alt Text](https://imgur.com/a/LzX9SMx.gif)
 ## Link to Video
 [https://imgur.com/a/LzX9SMx]
 
