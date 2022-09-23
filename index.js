@@ -1,6 +1,7 @@
 // TODO: Include packages needed for this application
 const inquirer = require('inquirer');
 const fs = require("fs");
+const generateMarkdown = require("./generateMarkdown");
 // TODO: Create an array of questions for user input
 const questions = [
     "Please eneter the title of your project.",
@@ -20,7 +21,6 @@ function writeToFile(fileName, data) {
         err ? console.error(err) : console.log("Success!");
     });
 }
-
 // TODO: Create a function to initialize app
 function init() {
     inquirer
@@ -81,9 +81,8 @@ function init() {
                 message: `${questions[8]}`,
                 name: "email",
             },
-            // console.log('Thank you!')
-        ])
-}
+        ]);
 
+};
 // Function call to initialize app
 init();
