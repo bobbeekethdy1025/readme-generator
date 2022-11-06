@@ -81,7 +81,10 @@ function init() {
                 message: `${questions[8]}`,
                 name: "email",
             },
-        ]);
+        ])
+            .then((response) => {
+                writeToFile("README.md", response);
+            });
 
 };
 // Function call to initialize app
