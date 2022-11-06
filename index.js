@@ -83,7 +83,7 @@ function init() {
             },
         ])
             .then((response) => {
-                writeToFile("README.md", response);
+                writeToFile("READMEtest.md", response);
             });
 
 };
